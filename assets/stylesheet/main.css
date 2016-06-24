@@ -52,3 +52,40 @@
 .img-1 {
     width: 1250px;
 }
+
+#reserv {
+    font-size: 44px;
+    
+}
+table {
+    border-collapse: separate;
+    width: 60%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+td {
+    border: 1px solid black;
+}
+
+table.name {
+    table-layout: fixed;
+}
+td {
+    padding-bottom: 20px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+th {
+    text-align: left;
+}
+table,tr,th{
+    align-content: space-between;
+}
+table th checkin{
+     table-layout: fixed;
+    width: 10%;
+    margin-left: inherit;
+}
