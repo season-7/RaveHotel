@@ -2,121 +2,82 @@
 
 <head>
     <meta charset="utf-8">
-<title>Rave Hotel</title> 
+<title>Rave Hotel</title>
     <link rel="stylesheet"
-          href="assets/stylesheet/main.css"> 
+          href="assets/stylesheet/main.css">
     </head>
 <body>
-    
-  
+
+
     <header class="header">
-    <h1 class="logo"> 
+    <h1 class="logo">
         <a>Rave Hotel</a>
     </h1>
-    
+
     <nav class="primary nav">
-    
+
         <a href="home.html">Home</a>
-    
+
         <a href="reservation.html">Reservation</a>
-        
+
         <a href="gallery.html">Galary</a>
-    
+
         <a href="offer.html">Offers</a>
     </nav>
 
-    
-</header>  
-    
-    <body>
-        <h1 class="reserv">Reservations</h1>
-       
-<table class="name">
-  <tr>
-    <td width="5%">Name</td>
-    <td width="40%"></td>
-  </tr>
-</table>
-       <br>
-        <br>
-        <br>
-        <table class="contact">
-  <tr>
-    <td width="5%">contact</td>
-    <td width="35%"></td>
-  </tr>
-</table>
-        <br>
-        <br>
-        <br>
-        <table class="group">
-  <tr>
-    <td width="5%">Family/group</td>
-    <td width="35%"></td>
-  </tr>
-</table>
-        <br>
-        <br>
-        <br>
-        <table class="grpname">
-  <tr>
-    <td width="5%">Name/Group name</td>
-    <td width="35%"></td>
-  </tr>
-</table>
-        <br>
-        <br>
-        <br>
-        <table class="grpname">
-  <tr>
-    <td width="5%">No.of.people</td>
-    <td width="40%"></td>
-  </tr>
-</table>
-        <br>
-        <br>
-    
-        <table class="checkin">
-<tr>
-    <td width="5%">check in</td>
-    <td width="15%"></td>
-    <td width="5%">check out</td>
-    <td width="15%"></td>
-   </table> 
+
+</header>
+
+<form action="action_page.php">
+<fieldset>
+<legend>Reservation information:</legend>
+ Names:<br>
+<input type="text" name="firstname" value="Mickey">
+<input type="text" name="lastname" value="Mouse">
+Number of people:<br>
+<input type="radio" name="number_of_people" value="Individual" checked>
+ Individual<br>
+ <input type="radio" name="number_of_people" value="other" checked>
+  Other<br>
   
+<br><br>
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+
     </body>
-    
+
  <footer class="footer">
-    
+
     <section class="alignment">
     <small>&copy;Rave Hotel</small>
-    
-    
+
+
   <nav class="primary nav">
-    
+
         <a href="home.html">Home</a>
-    
+
         <a href="reservation.html">Reservation</a>
-        
+
         <a href="gallery.html">Galary</a>
-    
+
         <a href="offer.html">Offers</a>
-    </nav> 
+    </nav>
     </section>
-    </footer>   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </body>
 </html>
