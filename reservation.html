@@ -31,15 +31,22 @@
 <form action="action_page.php">
 <fieldset>
 <legend>Reservation information:</legend>
+
+<section>
+
  Names:<br>
-<input type="text" name="firstname" value="Mickey">
-<input type="text" name="lastname" value="Mouse">
+<input type="text" name="Name" value="" required<strong>
+  <abbr title="required">*</abbr></strong><br>
+<input type="email" id="mail" name="usermail" required />
+        <strong><abbr title="required">*</abbr></strong>
+        
 Number of people:<br>
-<input type="radio" name="number_of_people" value="Individual" checked>
+<input type="radio" name="number of people" value="Individual" checked>
  Individual<br>
- <input type="radio" name="number_of_people" value="other" checked>
+ <input type="radio" name="number of people" value="other" checked>
   Other<br>
-  
+</section>
+
 <br><br>
 <input type="submit" value="Submit">
 </fieldset>
