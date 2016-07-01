@@ -1,0 +1,194 @@
+.title{
+    font-family: font-family: 'Playfair Display', serif;
+    padding-left: 18px;
+    color: aqua;
+    
+}
+   
+    
+}
+body{
+   font-family: 'David Libre', serif; 
+   background-image: url(../image/bcgrnd1.jpg);
+   background-repeat: no-repeat;     
+}
+
+.header{
+    font-size: 40px;
+    background-image: url(../image/background7.jpg);
+    color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1300px;
+    height: 233px;
+}
+.primary-nav{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.logo{
+    float: left;
+    padding-left: 46px;
+
+}
+
+.primary-nav ul{
+    float: left;
+   
+}
+.primary-nav li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    padding: 30px;
+    height: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+    margin-left: 30px;
+    color: #c1c174;
+   
+}
+a{
+   text-decoration: none;
+    color: bisque;
+    
+}
+.ravehead{
+    font-size: 30px
+}
+p{
+    font-size: 18px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1800px;
+  position: relative;
+  margin: auto;
+  padding-top: 14px;   
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.imagerave{
+    height: 600px;
+    width: 600px;
+}
+
+.soshmedia{
+    width: 35px;
+    height: 35px;
+}
+.ravemedia{
+    font-size: 30px;
+    text-align: center;
+}
+.ravous_overlap{
+   text-align: center; 
+}
+.ravending{
+    text-align: center;
+    font-size: 23px;
+    padding-top: 22px;
+}
+.footbout{
+    font-family: 'Indie Flower', cursive;
+    font-size: 23px;
+}
+.boddy{
+    background-image: url(../image/bckgrnd2.jpg);
+    width: 1300px;
+    height: auto;
+}
+
+.img-1 {
+    width: 1250px;
+}
+.galerooms{
+    color: black;
+    
+}
+.defend{
+    color: black;
+}
+
+.drives{
+    width: 300px;
+    height: 175px;
+    padding-left: 5px
+    
+}
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+.textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.account-info{
+    color: black;
+    font-size: 24px;
+    
+}

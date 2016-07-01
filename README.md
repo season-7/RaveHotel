@@ -1,2 +1,0 @@
-# RaveHotel
-Hotel website
