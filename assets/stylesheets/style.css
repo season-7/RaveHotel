@@ -192,3 +192,21 @@ select,
     font-size: 24px;
     
 }
+.couples{
+    width:300px;
+    height:200px;
+}
+.offers{
+    float: left;
+    padding-left: 23px;
+}
+.offers2{
+    float: right;
+    padding-right: 33px;
+}
+.offersh2{
+    font size:39px;
+}
+.offersp{
+    font-size:24px; 
+}
